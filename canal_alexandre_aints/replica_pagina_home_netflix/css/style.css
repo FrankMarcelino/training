@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cirular Std', sans-serif;
+}
+
+#logo {
+    width: 150px;
+
+}
+
+
+#container {
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3)), url("https://assets.nflxext.com/ffe/siteui/vlv3/42df4e1f-bef6-499e-87ff-c990584de314/4423f96c-c847-4c53-87a8-61bc53e7bd48/BR-pt-20230904-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    background-size: cover;
+    height: 700px;
+    padding: 30px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select{
+    padding: 2px 1px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#btn-enter {
+    padding: 4px 15px;
+    border:none;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-weight: bold;
+    margin: 15px;
+}
+    
+main {
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+#title-main {
+    font-size: 40px;
+    font-weight: 800;
+   
+
+}
+
+h2 {
+    font-weight: 400;
+    margin: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+#iEmail {
+    height: 50px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.726);
+    border-color: gray;
+    padding-left: 3px;
+
+}
+
+#btn-vamosla {
+    margin-left: 10px;
+    font-size: 22px;
+    padding:  2px 20px;
+    font-weight: 700;
+    color: white;
+    background-color:  rgb(229, 9, 20); 
+    border: none;
+    border-radius: 3px;
+}
