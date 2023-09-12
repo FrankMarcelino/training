@@ -98,4 +98,7 @@ form{
     height: 800px;
     margin: 0 auto;
     background-color: red;
+    border-radius: 5px;
+    background: linear-gradient(333.52deg, #000235 24.58%, #010F42 84.55%, #E40913 104.96%);
+    margin-top: 100px;
 }
