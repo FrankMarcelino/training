@@ -2,10 +2,11 @@
 
 @import url('https://fonts.cdnfonts.com/css/circular-std');
 
-*{
+body{
     margin: 0px;
     padding: 0px;
     font-family: 'Cirular Std', sans-serif;
+    background-color: #00081d;
 }
 
 #logo {
@@ -18,7 +19,7 @@
     background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3)), url("https://assets.nflxext.com/ffe/siteui/vlv3/42df4e1f-bef6-499e-87ff-c990584de314/4423f96c-c847-4c53-87a8-61bc53e7bd48/BR-pt-20230904-popsignuptwoweeks-perspective_alpha_website_small.jpg");
     background-size: cover;
     height: 700px;
-    padding: 30px;
+    padding: 20px;
 }
 
 header {
@@ -26,6 +27,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin: 0;
 }
 
 select{
@@ -43,12 +45,11 @@ select{
     background-color: rgb(229, 9, 20);
     color: white;
     font-weight: bold;
-    margin: 15px;
 }
     
 main {
     color: white;
-    margin-top: 100px;
+    margin-top: 5px;
     margin-left: 100px;
     text-align: center;
 }
@@ -90,4 +91,11 @@ form{
     background-color:  rgb(229, 9, 20); 
     border: none;
     border-radius: 3px;
+}
+
+#box-container {
+    width: 95%;
+    height: 800px;
+    margin: 0 auto;
+    background-color: red;
 }
