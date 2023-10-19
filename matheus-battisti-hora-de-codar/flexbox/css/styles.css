@@ -1,0 +1,34 @@
+.container {
+    background-color: #eef;
+    border: 2px solid red;
+    padding: 15px;
+    max-width: 300px;
+    height: 300px;
+    position: relative;
+    display:flex;
+    /* alinhamento horizontal */
+    justify-content: space-between;
+    /* alinhamento vertical */
+    align-items: center;
+
+ 
+}
+
+h1 {
+    position: absolute;
+    top: 10px;
+}
+
+.item {
+    background-color: #ccc;
+    border: 2px solid blue;
+    height: 50px;
+    width: 50px;
+}
+
+.box {
+    background-color: #ccc;
+    border: 2px solid blue;
+    height: 50px;
+    width: 50px;
+}
